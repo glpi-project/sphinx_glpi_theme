@@ -3,7 +3,7 @@ From https://github.com/rtfd/sphinx_rtd_theme.
 """
 import os
 
-__version__ = '0.2'
+__version__ = '0.3'
 __version_full__ = __version__
 
 def get_html_themes_path():
