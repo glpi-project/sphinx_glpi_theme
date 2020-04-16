@@ -29,7 +29,7 @@ In your ``conf.py`` file:
 
     html_theme = "glpi"
 
-    html_theme_path = [sphinx_glpi_theme.get_html_themes_path()]
+    html_theme_path = sphinx_glpi_theme.get_html_themes_path()
 
 Via git or download
 -------------------
