@@ -38,9 +38,9 @@
   {% endif %}
 
   {# RTD hosts this file, so just load on non RTD builds #}
-  {#% if not READTHEDOCS %#}
+  {%- if sphinx_version_info < (4, 0) -%}
     <link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
-  {#% endif %#}
+  {% endif %}
 
   {% for cssfile in css_files %}
     <link rel="stylesheet" href="{{ pathto(cssfile, 1) }}" type="text/css" />
